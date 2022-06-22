@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="./styles/style.css" />
     <!------------------------- Fonteawesom ------------------->
-    <link rel="stylesheet" href="./public/icons/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/icons/css/all.min.css" />
 
     <!-------------------------- Google Fonts --------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,7 +38,7 @@
       
       <!-------------------- Start Navigation  ------------------->
       <nav>
-        <img alt="logo" src="./public/svg/Logo.svg" />
+        <img alt="logo" src="./assets/svg/Logo.svg" />
         <ul>
           <li>Auctions</li>
           <li>Roadmap</li>
@@ -59,11 +59,11 @@
         <span>non fungible tokens</span>
         <div>
           <h1>A new NFT</h1>
-          <img src="./public/svg/Vector.svg" />
+          <img src="./assets/svg/Vector.svg" />
         </div>
 
         <div>
-          <img src="./public/svg/Frame.svg" />
+          <img src="./assets/svg/Frame.svg" />
           <h1>Experience</h1>
         </div>
         <span>Discover , collect and sell</span>
@@ -81,27 +81,27 @@
       </div>
       <div class="square__container">
         <div class="square">
-          <img src="./public/images/square(1).jpg"/>
+          <img src="./assets/images/square(1).jpg"/>
           <span>2.55ETH</span>
         </div>
         <div class="square">
-          <img src="./public/images/square(2).jpg"/>
+          <img src="./assets/images/square(2).jpg"/>
           <span>2.55ETH</span>
         </div>
         <div class="square">
-          <img src="./public/images/square(3).jpg"/>
+          <img src="./assets/images/square(3).jpg"/>
           <span>2.55ETH</span>
         </div>
         <div class="square">
-          <img src="./public/images/square(4).jpg"/>
+          <img src="./assets/images/square(4).jpg"/>
           <span>2.55ETH</span>
         </div>
         <div class="square">
-          <img src="./public/images/square(5).jpg"/>
+          <img src="./assets/images/square(5).jpg"/>
           <span>2.55ETH</span>
         </div>
         <div class="square">
-          <img src="./public/images/square(6).jpg"/>
+          <img src="./assets/images/square(6).jpg"/>
           <span>2.55ETH</span>
         </div>
       </div>
@@ -115,10 +115,10 @@
         </button>
       </div>
       <div class="nav__logotypes">
-        <img alt="" src="./public/svg/Ritter Sport.svg" />
-        <img alt="" src="./public/svg/Nike.svg" />
-        <img alt="" src="./public/svg/Adidas.svg" />
-        <img alt="" src="./public/svg/New Holland.svg" />
+        <img alt="" src="./assets/svg/Ritter Sport.svg" />
+        <img alt="" src="./assets/svg/Nike.svg" />
+        <img alt="" src="./assets/svg/Adidas.svg" />
+        <img alt="" src="./assets/svg/New Holland.svg" />
       </div>
     </header>
 
@@ -128,11 +128,20 @@
     <main>
       <section class="main__live__auctions">
         <h3>Latest live auctions</h1>
-          <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide" id="slider1" role="group" aria-label="Splide Basic HTML Example" 
+          data-splide='{
+            "type" : "loop",
+            "focus": "center",
+            "perPage" : 3 ,
+            "padding": "5%",
+            "autoPlay" : true,
+            "pagination" : false
+        }''
+          >
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">
-                  <img src="./public/images/Image.jpg"/>
+                  <img src="./assets/images/Image.jpg"/>
                   <div class="splide__slide__title">
                     <p>Dui accumsan leo vestibulum ornare eu</p>
                     <span>1.11 ETH</span>
@@ -144,10 +153,10 @@
                   <div class="line"></div>
                   <div class="splide__slide__binding_people">
                     <ul>
-                      <li><img src="./public/images/avatars/011.jpg"/></li>
-                      <li><img src="./public/images/avatars/021.jpg"/></li>
-                      <li><img src="./public/images/avatars/031.jpg"/></li>
-                      <li><img src="./public/images/avatars/041.jpg"/></li>
+                      <li><img src="./assets/images/avatars/011.jpg"/></li>
+                      <li><img src="./assets/images/avatars/021.jpg"/></li>
+                      <li><img src="./assets/images/avatars/031.jpg"/></li>
+                      <li><img src="./assets/images/avatars/041.jpg"/></li>
                       <li>101 people are bidding</li>
                     </ul>
                     <div class="splide__slide__binding_people_fav">
@@ -157,7 +166,7 @@
                   </div>
                 </li>
                 <li class="splide__slide">
-                  <img src="./public/images/Image(1).jpg"/>
+                  <img src="./assets/images/Image(1).jpg"/>
                   <div class="splide__slide__title">
                     <p>Tristique diam a, enim, eros tellus. Viverra etiam</p>
                     <span>2.55 ETH</span>
@@ -169,10 +178,10 @@
                   <div class="line"></div>
                   <div class="splide__slide__binding_people">
                     <ul>
-                      <li><img src="./public/images/avatars/01.jpg"/></li>
-                      <li><img src="./public/images/avatars/02.jpg"/></li>
-                      <li><img src="./public/images/avatars/03.jpg"/></li>
-                      <li><img src="./public/images/avatars/04.jpg"/></li>
+                      <li><img src="./assets/images/avatars/01.jpg"/></li>
+                      <li><img src="./assets/images/avatars/02.jpg"/></li>
+                      <li><img src="./assets/images/avatars/03.jpg"/></li>
+                      <li><img src="./assets/images/avatars/04.jpg"/></li>
                       <li>14 people are bidding</li>
                     </ul>
                     <div class="splide__slide__binding_people_fav">
@@ -182,7 +191,7 @@
                   </div>
                 </li>
                 <li class="splide__slide">
-                  <img src="./public/images/Image(2).jpg"/>
+                  <img src="./assets/images/Image(2).jpg"/>
                   <div class="splide__slide__title">
                     <p>Vulputate felis purus viverra morbi facilisi eget</p>
                     <span>3.19 ETH</span>
@@ -194,10 +203,10 @@
                   <div class="line"></div>
                   <div class="splide__slide__binding_people">
                     <ul>
-                      <li><img src="./public/images/avatars/012.jpg"/></li>
-                      <li><img src="./public/images/avatars/022.jpg"/></li>
-                      <li><img src="./public/images/avatars/032.jpg"/></li>
-                      <li><img src="./public/images/avatars/042.jpg"/></li>
+                      <li><img src="./assets/images/avatars/012.jpg"/></li>
+                      <li><img src="./assets/images/avatars/022.jpg"/></li>
+                      <li><img src="./assets/images/avatars/032.jpg"/></li>
+                      <li><img src="./assets/images/avatars/042.jpg"/></li>
                       <li>35 people are bidding</li>
                     </ul>
                     <div class="splide__slide__binding_people_fav">
@@ -207,7 +216,7 @@
                   </div>
                 </li>
                 <li class="splide__slide">
-                  <img src="./public/images/Image(3).jpg"/>
+                  <img src="./assets/images/Image(3).jpg"/>
                   <div class="splide__slide__title">
                     <p>Senectus adipiscing nascetur accumsan etiam</p>
                     <span>1.63 ETH</span>
@@ -219,10 +228,10 @@
                   <div class="line"></div>
                   <div class="splide__slide__binding_people">
                     <ul>
-                      <li><img src="./public/images/avatars/013.jpg"/></li>
-                      <li><img src="./public/images/avatars/023.jpg"/></li>
-                      <li><img src="./public/images/avatars/033.jpg"/></li>
-                      <li><img src="./public/images/avatars/043.jpg"/></li>
+                      <li><img src="./assets/images/avatars/013.jpg"/></li>
+                      <li><img src="./assets/images/avatars/023.jpg"/></li>
+                      <li><img src="./assets/images/avatars/033.jpg"/></li>
+                      <li><img src="./assets/images/avatars/043.jpg"/></li>
                       <li>12 people are bidding</li>
                     </ul>
                     <div class="splide__slide__binding_people_fav">
@@ -232,7 +241,7 @@
                   </div>
                 </li>
                 <li class="splide__slide">
-                  <img src="./public/images/Image(4).jpg"/>
+                  <img src="./assets/images/Image(4).jpg"/>
                   <div class="splide__slide__title">
                     <p>Mattis at diam lorem nisl nam sed sociis</p>
                     <span>3.19 ETH</span>
@@ -244,10 +253,10 @@
                   <div class="line"></div>
                   <div class="splide__slide__binding_people">
                     <ul>
-                      <li><img src="./public/images/avatars/014.jpg"/></li>
-                      <li><img src="./public/images/avatars/024.jpg"/></li>
-                      <li><img src="./public/images/avatars/034.jpg"/></li>
-                      <li><img src="./public/images/avatars/044.jpg"/></li>
+                      <li><img src="./assets/images/avatars/014.jpg"/></li>
+                      <li><img src="./assets/images/avatars/024.jpg"/></li>
+                      <li><img src="./assets/images/avatars/034.jpg"/></li>
+                      <li><img src="./assets/images/avatars/044.jpg"/></li>
                       <li>19 people are bidding</li>
                     </ul>
                     <div class="splide__slide__binding_people_fav">
@@ -274,10 +283,512 @@
           </div>
         </div>
         <div class="text__image__section__right">
-          <img src="./public/images/right_image.png"/>
-          <img src="./public/images/right_image(1).png"/>
+          <img src="./assets/images/right_image.png"/>
+          <img src="./assets/images/right_image(1).png"/>
+        </div>
+      </section>
+
+      <section class="triple__section">
+        <div class="triple__section__left">
+          <h4>Check out the hottest Sale  offers</h4>
+          <div class="splide" id="slider2" role="group" data-splide='{"perPage":1, "gap" : 2 , "pagination" : false , "arrows" : false , "perove" : 1} '>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide__two">
+                  <div class="triple_left_container">
+                    <img src="./assets/images/triple_left(1).jpg"/>
+                    <p>Fames habitasse risus ultricies tortor sit</p>
+                    <div class="triple_left__time_left">
+                      <div>
+                        <span class="fa fa-clock"></span>
+                        <span>22:59</span>
+                      </div>
+                      <span>2.55 ETH</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="triple_left_people">
+                      <span>101 people are bidding</span>
+                      <span class="fa fa-heart empty"></span>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide__two two">
+                  <div class="triple_left_container">
+                    <img src="./assets/images/triple_left(2).jpg"/>
+                    <p>Fames habitasse risus ultricies tortor sit</p>
+                    <div class="triple_left__time_left">
+                      <div>
+                        <span class="fa fa-clock"></span>
+                        <span>22:59</span>
+                      </div>
+                      <span>2.55 ETH</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="triple_left_people">
+                      <span>101 people are bidding</span>
+                      <span class="fa fa-heart empty"></span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button>Show me more</button>
+        </div>
+        <div class="triple__section__center">
+          <img src="./assets/svg/triple_center_vector.svg" class="vector"/>
+          <div class="triple__center__dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <img src="./assets/images/get_started_box.png" class="hand"/>
+          <div class="triple__center__text">
+            <h3>Get Started creating & selling your NFTs</h3>
+            <p>Nunc gravida faucibus netus feugiat tellus, viverra massa feugiat. Mi est sit.</p>
+          </div>
+          <button class="triple__center_button">Get started</button>
+        </div>
+        <div class="triple__section__right">
+          <h4>Top NFT at a lower  price</h4>
+          <div class="triple_left__time_right_top_nft ">
+            <ul>
+              <li>
+                <img src="./assets/images/top_nft(1).jpg"/>
+                <div>
+                  <h6>Vulputate velit viverra volutpat volutpat tristique</h6>
+                  <div class="triple__right__left__time">
+                    <div>
+                      <span class="fa fa-clock"></span>
+                      <span>22:59</span>
+                    </div>
+                    <p>1.25 ETH</p>
+                  </div>
+                  <div class="triple__right__people">
+                    <span>101 people are bidding</span>
+                    <span class="fa fa-heart "></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./assets/images/top_nft(2).jpg"/>
+                <div>
+                  <h6>Egestas blandit sit egestas non sed. Purus semper</h6>
+                  <div class="triple__right__left__time">
+                    <div>
+                      <span class="fa fa-clock"></span>
+                      <span>22:59</span>
+                    </div>
+                    <p>1.25 ETH</p>
+                  </div>
+                  <div class="triple__right__people">
+                    <span>101 people are bidding</span>
+                    <span class="fa fa-heart empty"></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./assets/images/top_nft(3).jpg"/>
+                <div>
+                  <h6>Id ut consequat netus nec vel amet ut porta in augue</h6>
+                  <div class="triple__right__left__time">
+                    <div>
+                      <span class="fa fa-clock"></span>
+                      <span>22:59</span>
+                    </div>
+                    <p>1.25 ETH</p>
+                  </div>
+                  <div class="triple__right__people">
+                    <span>101 people are bidding</span>
+                    <span class="fa fa-heart empty"></span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./assets/images/top_nft(4).jpg"/>
+                <div>
+                  <h6>Sed et nibh felis integer tellus turpin</h6>
+                  <div class="triple__right__left__time">
+                    <div>
+                      <span class="fa fa-clock"></span>
+                      <span>22:59</span>
+                    </div>
+                    <p>1.25 ETH</p>
+                  </div>
+                  <div class="triple__right__people">
+                    <span>101 people are bidding</span>
+                    <span class="fa fa-heart""></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="">Show me more</button>
+        </div>
+      </section>
+
+
+      <section class="text__image__section__two">
+        <div class="two_left">
+          <img src="./assets/images/two_left_image(1).png"/>
+          <img src="./assets/images/two_left_image(2).png"/>
+        </div>
+        <div class="two_right">
+          <p>Overlin</p>
+          <h2>Habitant tristique aliquam in vel scelerisque</h2>
+          <p>Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor pulvinar ultricies dolor feugiat aliquam commodo.</p>
+          <div class="two_right__Icons">
+            <div class="two_right__icons__left">
+              <img src="./assets/svg/text_image_icons(1).svg"/>
+              <h6>Sollicitudin sapien</h6>
+              <p>Cursus fermentum</p>
+            </div>
+            <div class="two_right__icons__right">
+              <img src="./assets/svg/Group.svg"/>
+              <h6>Pulvinar metus</h6>
+              <p>Nunc sed</p>
+            </div>
+          </div>
+          <div class="two_right__btns">
+            <button class="two_right__btn__start">Get started</button>
+            <button>Learn more</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular__auctions">
+        <div class="popular__auctions__header">
+          <p>overline</p>
+          <h3>Most popular live auctions</h3>
+        </div>
+        <div class="popular__auctions__tabs">
+          <span>Architecture</span>
+          <span>Photography</span>
+          <span>Games</span>
+          <span>Music</span>
         </div>
 
+      <div class="popular__auctions__boxs">
+        <ul>
+          <li>
+            <img src="./assets/images/popular_auction_img(1).jpg"/>
+            <h5>Faucibus habitasse at et platea massa mauris</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart empty"></span>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/popular_auction_img(2).jpg"/>
+            <h5>Diam purus sagittis nisl erat mauris</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart empty"></span>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/popular_auction_img(3).jpg"/>
+            <h5>Nascetur mauris viverra vel id id sem leo</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart empty"></span>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/popular_auction_img(4).jpg"/>
+            <h5>Velit, fusce id non dui amet amet maecenas</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart empty"></span>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/popular_auction_img(5).jpg"/>
+            <h5>Tellus duis neque fringilla pulvinar gravida</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart empty"></span>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/popular_auction_img(6).jpg"/>
+            <h5>Odio lacus neque ultrices purus eget</h5>
+            <div class="popular__auctions__boxs__time_left">
+              <div>
+                <span class="fa fa-clock"></span>
+                <p>22:59</p>
+              </div>
+              <span>2.55 ETH</span>
+            </div>
+            <div class="line"></div>
+            <div class="popular__auctions__boxs__people">
+              <p>101 people are bidding</p>
+              <span class="fa fa-heart"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="popular__auctions__boxs__button">Show more</button>
+      </section>
+
+      <section class="section__with__icons">
+        <div>
+          <img src="./assets/svg/setion_with_icon(1).svg"/>
+          <h3>300k</h3>
+          <p>User Active</p>
+        </div>
+        <div>
+          <img src="./assets/svg/setion_with_icon(2).svg"/>
+          <h3>52,5k</h3>
+          <p>Arrows</p>
+        </div>
+        <div>
+          <img src="./assets/svg/setion_with_icon(3).svg"/>
+          <h3>17,5</h3>
+          <p>Artist</p>
+        </div>
+        <div>
+          <img src="./assets/svg/setion_with_icon(4).svg"/>
+          <h3>35.58</h3>
+          <p>ETH Spent</p>
+        </div>
+      </section>
+
+      <section class="folder__setion">
+        <div class="folder__setion__top">
+          <img src="./assets/svg/folder__top.svg"/>
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="folder__setion__main">
+          <div class="folder__setion__main__text__left">
+            <p>overline</p>
+            <h2>Cursus vitae sollicitudin donec nascetur. Join now</h2>
+            <p>Donec volutpat bibendum justo, odio aenean congue est porttitor ut. Mauris vestibulum eros libero amet tincidunt.</p>
+            <div>
+              <button>Get started</button>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <div class="folder__setion__main__user__right">
+            <div class="user_two">
+              <img  src="./assets/images/avatars/folder_user(2).jpg"/>
+              <div>
+                <div class="user_two_id">
+                  <p>@marvinmckin</p>
+                  <span>7.55 ETH</span>
+                </div>
+                <div class="user_two_data">
+                  <div>
+                    <img src="./assets/svg/folder_right(1).svg"/>
+                    <span>item 479</span>
+                  </div>
+                  <div>
+                    <img src="./assets/svg/folder_right(2).svg"/>
+                    <span>collection 24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_one">
+              <img  src="./assets/images/avatars/folder_user(1).jpg"/>
+              <div>
+                <div class="user_one_id">
+                  <p>@brook_sim</p>
+                  <span>4.78 ETH</span>
+                </div>
+                <div class="user_one_data">
+                  <div>
+                    <img src="./assets/svg/folder_right(1).svg"/>
+                    <span>item 208</span>
+                  </div>
+                  <div>
+                    <img src="./assets/svg/folder_right(2).svg"/>
+                    <span>collection 12</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_three">
+              <img  src="./assets/images/avatars/folder_user(3).jpg"/>
+              <div>
+                <div class="user_three_id">
+                  <p>@esther_howard</p>
+                  <span>5.31 ETH</span>
+                </div>
+                <div class="user_three_data">
+                  <div>
+                    <img src="./assets/svg/folder_right(1).svg"/>
+                    <span>item 387</span>
+                  </div>
+                  <div>
+                    <img src="./assets/svg/folder_right(2).svg"/>
+                    <span>collection 10</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_four">
+              <img  src="./assets/images/avatars/folder_user(4).jpg"/>
+              <div>
+                <div class="user_four_id">
+                  <p>@brook_sim</p>
+                  <span>2.55 ETH</span>
+                </div>
+                <div class="user_four_data">
+                  <div>
+                    <img src="./assets/svg/folder_right(1).svg"/>
+                    <span>item 28</span>
+                  </div>
+                  <div>
+                    <img src="./assets/svg/folder_right(2).svg"/>
+                    <span>collection 15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_five">
+              <img  src="./assets/images/avatars/folder_user(5).jpg"/>
+              <div>
+                <div class="user_five_id">
+                  <p>@esther_howard</p>
+                  <span>2.55 ETH</span>
+                </div>
+                <div class="user_five_data">
+                  <div>
+                    <img src="./assets/svg/folder_right(1).svg"/>
+                    <span>item 24</span>
+                  </div>
+                  <div>
+                    <img src="./assets/svg/folder_right(2).svg"/>
+                    <span>collection 10</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="user_six">
+              <img src="./assets/images/avatars/folder_user(6).jpg"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__ETH__scroll">
+        <div>
+          <img src="./assets/images/scroll/Image.jpg"/>
+          <span>2.26 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_2.jpg"/>
+          <span>1.51 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_4.jpg"/>
+          <span>3.25 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_6.jpg"/>
+          <span>3.62 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_8.jpg"/>
+          <span>3.82 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_10.jpg"/>
+          <span>22 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_12.jpg"/>
+          <span>2.77 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_14.jpg"/>
+          <span>1.61 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_16.jpg"/>
+          <span>2.29 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_18.jpg"/>
+          <span>2.03 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_20.jpg"/>
+          <span>3.69 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_22.jpg"/>
+          <span>1.49 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_24.jpg"/>
+          <span>3.21 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_26.jpg"/>
+          <span>2.22 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_28.jpg"/>
+          <span>2.82 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_30.jpg"/>
+          <span>1.57 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_32.jpg"/>
+          <span>1.49 ETH</span>
+        </div>
+        <div>
+          <img src="./assets/images/scroll/Image_34.jpg"/>
+          <span>1.57 ETH</span>
+        </div>
       </section>
 
     </main>
@@ -286,21 +797,59 @@
 
 
     <!-- ----------- Start Footer Part ---------- -->
-    <footer></footer>
+    <footer>
+      <div class="footer__left">
+        <img src="./assets/svg/Logo.svg" alt="logo"/>
+        <ul>
+          <li>Support</li>
+          <li>Team of service</li>
+          <li>License</li>
+        </ul>
+      </div>
+      <div class="footer__center">
+        <ul>
+          <li>Auction</li>
+          <li>Roadmap</li>
+          <li>Discover</li>
+          <li>Community</li>
+        </ul>
+        <button>My account</button>
+        <ul>
+          <li><img src="./assets/svg/social/facebook.svg"/></li>
+          <li><img src="./assets/svg/social/twitter.svg"/></li>
+          <li><img src="./assets/svg/social/github.svg"/></li>
+          <li><img src="./assets/svg/social/instagram.svg"/></li>
+          <li><img src="./assets/svg/social/linkedin.svg"/></li>
+        </ul>
+      </div>
+      <div class="footer__right">
+        <p>Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet velit, sed egestas in. Id nam semper dolor tellus vulputate eget turpis. </p>
+        <form>
+          <input placeholder="Newsletter"/>
+          <button>Sing in</button>
+        </form>
+      </div>
+    </footer>
     <!------------- Etart Footer Part ------------>
     
     <script src="./apps/app.js"></script>
-    <!-- <script src="./apps/splid.js"></script> -->
+    <script src="./apps/splid.js" ></script>
     <script>
-      new Splide( '.splide' , {
-        type : 'loop',
-        focus: 'center',
-        perPage : 3 ,
-        padding: '5%',
-        autoPlay : true,
-        pagination : false
-      } ).mount();
-    </script>
-    
+      
+        var elms = document.getElementsByClassName( 'splide' );
+        const option = {
+            type : 'loop',
+            focus: 'center',
+            perPage : 3 ,
+            padding: '5%',
+            autoPlay : true,
+            pagination : false
+        }
+      for ( let i = 0; i < elms.length; i++ ) {
+      new Splide( elms[ i ] ).mount();
+          }
+  </script>
+      
+      
   </body>
 </html>
